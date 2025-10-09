@@ -1,0 +1,63 @@
+.Hero{
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+    mask-image: linear-gradient(to right , transparent , black 75%);
+    -webkit-mask-image: linear-gradient(to right , transparent , black 75%);
+}
+.hero-caption{
+    position: absolute;
+    width: 100%;
+    top: 174px;
+    padding-left: 6%;
+    bottom: 0;
+}
+.hero-caption p{
+    width: 40%;
+    max-width: 420px;
+    margin-bottom:30px;
+    /* background-color: beige; */
+}
+.caption-img{
+    width: 35%;
+    height: 30%;
+}
+
+.heroBtns{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.heroBtns .btn img{
+    width: 25px;
+    
+}
+.heroBtns .btn{
+    border-radius: 4px;
+    border: none;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #ffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.heroBtns .btn.dark-btn{
+    color: #ffff;
+    background-color: #6d6d6eb3;
+}
+.heroBtns .btn:hover{
+    background-color:#ffffffbf;
+
+}
+.heroBtns .btn.dark-btn:hover{
+    background-color:#6d6d6e66;
+}
+.more-cards{
+    padding-left: 6%;
+}
