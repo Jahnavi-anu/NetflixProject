@@ -4,7 +4,7 @@ import Navbar from '../../Components/Navbar/Navbar'
 import Footer  from '../../Components/Footer/Footer.jsx'
 import HeroBanner from '../../assets/hero_banner.jpg'
 import heroTitle from '../../assets/hero_title.png'
-import play_icon from '../../assets/PLay_icon.png'
+import play_icon from '../../assets/play_icon.png'
 import info_icon from '../../assets/info_icon.png'
 import TitleCards  from '../../Components/TitleCards/TitleCards.jsx'
     //  ./ current Folder 
