@@ -5,11 +5,12 @@ import Login from './Pages/Login/Login.jsx'
 const App = () => 
   {
   return (
+    
     <div>
       <Routes>
         {/* / means Home */}
         <Route  path='/' element={ <Home />}  />
-         <Route  path='/login' element={ <Login />}  />
+        <Route  path='/login' element={ <Login />}  />
       </Routes>
      
     </div>

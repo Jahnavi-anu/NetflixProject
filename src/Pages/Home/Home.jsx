@@ -24,7 +24,7 @@ import TitleCards  from '../../Components/TitleCards/TitleCards.jsx'
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae eligendi accusantium </p>
             <div className="heroBtns">
                 <button className='btn'><img src={play_icon} alt="" />play</button>
-                 <button className='btn dark-btn'><img src={info_icon} alt="" />More info</button>
+                <button className='btn dark-btn'><img src={info_icon} alt="" />More info</button>
             </div>
             <TitleCards />
           </div>

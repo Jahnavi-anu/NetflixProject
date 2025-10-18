@@ -17,9 +17,6 @@ const Navbar = () => {
                             <li>New & Popular</li>
                             <li>My List</li>
                             <li>Browse by Languages</li>
-                           
-
-
                     </ul>
               </div>
               <div className="navbar-right">
