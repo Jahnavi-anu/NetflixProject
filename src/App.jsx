@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './Pages/Home/Home.jsx'
-import {Routes,Route} from 'react-router-dom'
+import {Routes,Route,Navigate} from 'react-router-dom'
 import Login from './Pages/Login/Login.jsx'
 const App = () => 
   {
@@ -8,9 +8,12 @@ const App = () =>
     
     <div>
       <Routes>
+          {/* ✅ Default route — when app opens, go to /login */}
+        <Route path="/" element={<Navigate to="/login" />} />
         {/* / means Home */}
-        <Route  path='/' element={ <Home />}  />
-        <Route  path='/login' element={ <Login />}  />
+         <Route  path='/login' element={ <Login />}  />
+        <Route  path='/home' element={ <Home />}  />
+       
       </Routes>
      
     </div>
